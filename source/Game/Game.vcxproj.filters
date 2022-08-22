@@ -3,6 +3,9 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="..\3rdparty\gl.c">
+      <Filter>Engine\glad</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine.h" />
@@ -16,10 +19,16 @@
     <ClInclude Include="Timer.h">
       <Filter>Engine</Filter>
     </ClInclude>
+    <ClInclude Include="..\3rdparty\gl.h">
+      <Filter>Engine\glad</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">
       <UniqueIdentifier>{bc881a8e-1b65-4339-8363-ee4edd4ec354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\glad">
+      <UniqueIdentifier>{9c756e47-61ce-479c-b17c-b30f353ac662}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
